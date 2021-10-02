@@ -1,0 +1,64 @@
+body{
+    background-color: #5f696f;
+}
+
+.Menu{
+    position: absolute;
+    top: 18em;
+    left: 34em;
+}
+
+.Header{
+    position: relative;
+    top: 1em;
+    left: 5em;
+}
+
+.Logo{
+    position: absolute;
+    top: 0em;
+    left: 8em;
+}
+
+.Content{
+    position: absolute;
+    top:1em;
+    left: 0em;
+    right: 0.3em;
+    background-color: white;
+}
+
+.Products{
+    position: absolute;
+    top:27em;
+    left: 27em;
+    right: 0.3em;
+
+}
+
+p{
+    font-weight: bold;
+}
+
+.Social_Networks{
+    position: absolute;
+    bottom: 0em;
+}
+
+
+.Form{
+    position: absolute;
+    bottom: 4em;
+    left: 27em;
+}
+
+label{
+    display: inline-block;
+    width: 4em;
+}
+
+.Legal_Disclaimer{
+    position: absolute;
+    bottom: 6em;
+    left: 6em;
+}

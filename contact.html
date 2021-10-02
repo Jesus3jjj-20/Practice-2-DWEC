@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="Styles/style.css" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+
+
+<body>
+
+  <!--Internal script-->
+    <script>
+      console.log("Ok");
+    </script>
+
+    <!--Header and subtitle-->
+    <span class="Header">
+        <img src="Images/Header.jpg" alt="Header" width="1130" height="300">
+
+
+      <span class="Content">
+        <p>&nbsp;Contact us!</p>
+      </span>
+
+
+    </span>
+
+
+  <!--Logo-->
+  <span class="Logo">
+      <img src="Images/Logo.png" alt="Logo" width="300" height="300">
+  </span>
+
+
+  <!--Menu-->
+  <span class="Menu">
+      <table border="5px">
+        <tr>
+            <th><a href="index.html">Home</a></th>
+            <th bgcolor="#dfe8ee"><a href="contact.html">Contact</a></th>
+            <th><a href="legal.html">Legal</a></th>
+        </tr>
+       </table>
+  </span>
+
+
+  <!--Form contact-->
+  <span class="Form">
+
+  <form action="" method="post">
+    <ul>
+     <li>
+       <label for="name">Name:</label>
+       <input type="text" id="name" name="user_name">
+     </li>
+     <li>
+       <label for="mail">E-mail:</label>
+       <input type="email" id="mail" name="user_mail">
+     </li>
+     <li>
+       <label for="msg">Message:</label>
+       <textarea id="msg" name="user_message"></textarea>
+     </li>
+    </ul>
+
+    <input type="submit" value="Send" onclick="send()"/>
+   </form>
+
+  </span>
+
+  <!--Message-->
+  <script>
+      function send(){
+        alert("Message sent successfully!");
+      }
+  </script>
+
+</body>
+
+
+
+<footer>
+
+  <!--Social Networks and external script with the actual date-->
+  <span class="Social_Networks">
+    <a href="https://www.instagram.com/?hl=es" target="_blank"><img src ="Images/Instagram.png" width="30" height="30" /></a>
+	  <a href="https://es-es.facebook.com/" target="_blank"><img src ="Images/Facebook.png" width="30" height="30"/></a>
+	  <a href="https://twitter.com/?lang=es" target="_blank"><img src ="Images/Twitter.png" width="30" height="30" /></a>
+
+    <script type="text/javascript" src="JavaScript/date.js"></script>
+  </span>
+
+</footer>
+
+
+</html>
